@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    padding: 0 2%;
+}
+
+.header {
+    padding: 1rem 0;
+}
+
+.header--menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.burger--icon {
+    padding: 10px;
+    background-color: #c08497;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search--box {
+    background-color: #b0d0d3;
+    border-radius: 10px;
+    flex: 1;
+    align-items: center;
+    padding: 1rem;
+}
+
+.search--box i {
+    color: blue;
+}
+
+.search--box input {
+    background: transparent;
+    padding: 10px;
+    width: 80%
+}
+
+.menu--icons {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.menu--icons i {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #f7af9d;
+}
+
+.fa-cart-shopping {
+    background: transparent !important;
+    border: 1px solid #000;
+    color: aquamarine;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-icon span {
+    background: rgb(176, 223, 187);
+    color: #000;
+    border-radius: 50%;
+    width: 15%;
+    height: 15px;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    position: absolute;
+    right: -5px;
+    left: -5px;
+}
+
+/* Cover Section */
+.cover {
+    background-color: #f7af9d;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+
+.cover-overlay {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Section Heading */
+.section-heading {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 1rem 0 10px 0;
+    color: red;
+}
+
+/* Menu */
+.menu--list {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.menu--item {
+    width: 114px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid green;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+
+.menu--item img {
+    width: 100%;
+}
+
+
+
